@@ -25,12 +25,21 @@
                                     <color key="baseForegroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome To The Party" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1g6-gy-i8P">
+                                <rect key="frame" x="20" y="64" width="374" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                         <constraints>
+                            <constraint firstItem="1g6-gy-i8P" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="EO7-k1-EQv"/>
                             <constraint firstItem="SKp-s4-LrX" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="KFJ-f8-e5G"/>
                             <constraint firstItem="SKp-s4-LrX" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="lp6-SQ-wIp"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="1g6-gy-i8P" secondAttribute="trailing" constant="20" id="myq-OJ-ki0"/>
+                            <constraint firstItem="1g6-gy-i8P" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="yP5-3k-YF7"/>
                         </constraints>
                     </view>
                 </viewController>
