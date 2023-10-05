@@ -23,12 +23,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7v2-hY-kvA">
+                                <rect key="frame" x="173.5" y="432.5" width="67" height="31"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button">
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                         <constraints>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="4As-Tx-LBY" secondAttribute="trailing" constant="20" id="2ND-Sz-8Mk"/>
                             <constraint firstItem="4As-Tx-LBY" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="FtM-dt-bkm"/>
+                            <constraint firstItem="7v2-hY-kvA" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="bC6-uO-mD1"/>
+                            <constraint firstItem="7v2-hY-kvA" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="hcX-7r-R6M"/>
                             <constraint firstItem="4As-Tx-LBY" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="xSF-NP-aZe"/>
                         </constraints>
                     </view>
